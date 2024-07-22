@@ -1,6 +1,6 @@
 html, body {
   margin: 0;
-  min-width: 1440px; 
+  max-width: 1440px; 
   font-size: 15px;
   font-family: 'Outfit';
   font-weight: 400;
@@ -19,6 +19,7 @@ html, body {
     border-radius: 5%;
     box-shadow: 10px 5px 30px rgba(191, 190, 190, 0.5);
     background-color: hsl(0, 0%, 100%);
+    overflow: hidden;
 }
 /*img CSS*/
 .container-img {
@@ -27,12 +28,12 @@ html, body {
 
 .img {
     border-radius: 5%;
-    width: 260px;
+    max-width: 260px;
 }
 
 /*text CSS*/
 .container-text {
-    width: 90%;
+    max-width: 90%;
     padding: 10px;
     text-align: center;
 }
@@ -61,10 +62,11 @@ html, body {
         border-radius: 5%;
         box-shadow: 10px 5px 30px rgba(191, 190, 190, 0.5);
         background-color: hsl(0, 0%, 100%);
+        overflow: hidden;
     }
 
     .img {
-        width: 235px;
+        max-width: 235px;
     }
 
 }
