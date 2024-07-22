@@ -5,8 +5,10 @@ html, body {
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border: 1px solid black;
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    display: flex;
+    flex-wrap: wrap;
 }
