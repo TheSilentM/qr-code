@@ -4,10 +4,10 @@ html, body {
   font-size: 15px;
   font-family: Outfit;
   font-weight: 400;
+  background-color: hsl(212, 45%, 89%)
 }
 
 .container {
-    border: 1px solid black;
     position: absolute;
     top: 30%;
     left: 45%;
@@ -15,10 +15,17 @@ html, body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    border-radius: 5%;
+    box-shadow: 10px 5px 30px rgba(191, 190, 190, 0.5);
+    background-color: hsl(0, 0%, 100%);
 }
 /*img CSS*/
 .container-img {
-    padding: 10px;
+    padding: 15px;
+}
+
+.img {
+    border-radius: 5%;
 }
 
 /*text CSS*/
@@ -32,4 +39,8 @@ html, body {
     font-weight: 700;
     margin: 0;
     padding-bottom: 5px;
+}
+
+.description-p {
+    font-size: 15px;
 }
