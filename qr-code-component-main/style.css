@@ -69,4 +69,24 @@ html, body {
         max-width: 235px;
     }
 
+};
+
+@media (max-width: 1200px) {
+    .container {
+        position: absolute;
+        top: 25%;
+        left: 10%;
+        right: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        border-radius: 5%;
+        box-shadow: 10px 5px 30px rgba(191, 190, 190, 0.5);
+        background-color: hsl(0, 0%, 100%);
+        overflow: hidden;
+    }
+
+    .img {
+        max-width: 235px;
+    }
 }
