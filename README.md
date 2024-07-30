@@ -28,9 +28,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ![](./images/screenshot-mobile.jpg)
 
 
-### Links
-
-- Live Site URL: [Add live site URL here](http://127.0.0.1:5500/qr-code-component-main/index.html)
 
 ## My process
 
