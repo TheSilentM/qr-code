@@ -9,7 +9,7 @@ html, body {
 .container {
     position: absolute;
     top: 20%;
-    left: 40%;
+    left: 42%;
     margin-right: -50%;
     margin: auto;
     max-width: 280px;
@@ -51,9 +51,13 @@ html, body {
     color: hsl(216, 15%, 48%)
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 600px) {
 
     .container {
+        position: absolute;
+        top: 20%;
+        left: 25%;
+        margin-right: -50%;
         max-width: 250px;
         margin: auto;
         display: grid;
