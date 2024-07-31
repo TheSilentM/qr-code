@@ -1,21 +1,21 @@
 html, body {
-  margin: 0;
-  max-width: 1440px; 
+  margin: 0; 
   font-size: 15px;
   font-family: 'Outfit';
   font-weight: 400;
-  background-color: hsl(212, 45%, 89%)
+  background-color: hsl(212, 45%, 89%);
 }
 
 .container {
-    margin: auto;
     position: absolute;
-    top: 25%;
-    left: 45%;
-    right: 40%;
-    display: flex;
-    flex-wrap: wrap;
+    top: 20%;
+    left: 40%;
+    margin-right: -50%;
+    margin: auto;
+    max-width: 280px;
+    display: grid;
     justify-content: center;
+    justify-items: center;
     border-radius: 5%;
     box-shadow: 10px 5px 30px rgba(191, 190, 190, 0.5);
     background-color: hsl(0, 0%, 100%);
@@ -23,7 +23,8 @@ html, body {
 }
 /*img CSS*/
 .container-img {
-    padding: 15px;
+    box-sizing: border-box;
+    padding: 10px;
 }
 
 .img {
@@ -50,40 +51,25 @@ html, body {
     color: hsl(216, 15%, 48%)
 }
 
-@media (max-width: 600px) {
-    .container {
-        position: absolute;
-        top: 25%;
-        left: 15%;
-        right: 15%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        border-radius: 5%;
-        box-shadow: 10px 5px 30px rgba(191, 190, 190, 0.5);
-        background-color: hsl(0, 0%, 100%);
-        overflow: hidden;
-    }
-
-    .img {
-        max-width: 235px;
-    }
-
-};
-
 @media (max-width: 1200px) {
+
     .container {
-        position: absolute;
-        top: 25%;
-        left: 10%;
-        right: 10%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        max-width: 250px;
+        margin: auto;
+        display: grid;
+        align-content: center;
+        align-items: center;
+        justify-items: center;
         border-radius: 5%;
         box-shadow: 10px 5px 30px rgba(191, 190, 190, 0.5);
         background-color: hsl(0, 0%, 100%);
         overflow: hidden;
+
+    }
+    .container-img {
+        box-sizing: border-box;
+        padding: 10px;
+        padding-top: 8px;
     }
 
     .img {
